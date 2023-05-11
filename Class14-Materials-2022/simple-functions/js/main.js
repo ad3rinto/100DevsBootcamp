@@ -5,3 +5,9 @@ addNumbers = (num1, num2) => alert(num1 + num2);
 multi = (a, b, c) => console.log(a * b * c);
 multi(2, 4, 6)
 //create a function that divides two numbers and returns the ???
+
+function devNumber(f, g) {
+    return f % g;
+};
+
+console.log("modulo: " + devNumber(23, 4))
